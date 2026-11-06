@@ -1,0 +1,14 @@
+lab12_graphs.pl results:
+
+79 ?- consult(['c:/Users/ghala/OneDrive - IMAM ABDULRAHMAN BIN FAISAL UNIVERSITY/Documents/lab12_graphs.pl']).
+true.
+
+80 ?-  travel('Dammam', 'Madinah', P).
+P = ['Dammam', 'Al-Qatif', 'Madinah'] .
+
+81 ?- travel('Riyadh', 'Makkah', P).
+P = ['Riyadh', 'Dammam', 'Al-Qatif', 'Madinah', 'Makkah'] .
+
+82 ?- travel('Makkah', 'Riyadh', P).
+P = ['Makkah', 'Madinah', 'Taif', 'Dammam', 'Riyadh'] ;
+P = ['Makkah', 'Madinah', 'Tabuk', 'Taif', 'Dammam', 'Riyadh'] .
